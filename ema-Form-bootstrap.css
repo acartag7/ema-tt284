@@ -15,17 +15,22 @@ body {
 .nav-link {
     margin-right: 1em !important;
 }
-.nav-link:hover {
+/*.nav-link:hover {
     color: #000;
-}
+}*/
 .navbar-collapse {
     justify-content: flex-end;
+}
+
+.in-use {
+  background-color: #00BFA5;
+  color: white;
 }
 
 .welcome {
   left: 5%;
   position: absolute;
-  top: 10%;
+  top: 7%;
   text-align: left;
 }
 .welcome h1 {
