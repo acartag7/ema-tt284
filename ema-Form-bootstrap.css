@@ -130,3 +130,20 @@ a {
     margin: 5px;
 }
 
+/*
+Extra small devices (portrait phones, less than 376px)
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 375px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 376px) {
+
+}
+
+
+
