@@ -1,0 +1,34 @@
+<form method="post" action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php" id="form1" name="form1">
+
+    <p>
+       <input type="text" class="form-control" placeholder="Name" name=""> 
+    </p>
+    <p>
+       <input type="time" class="form-control" placeholder="Start Time" name=""> 
+    </p>
+    <p>
+       <input type="date" class="form-control" placeholder="Date" name="email"> 
+    </p>
+    
+    <p>
+       <input type="time" class="form-control" placeholder="Start Time" name=""> 
+    </p>
+    
+    <p>
+       <input type="text" class="form-control" placeholder="Meeting Point" name="email"> 
+    </p>
+   
+    <p>
+        <input type="text" class="form-control" placeholder="Distance in Miles" name="">
+    </p>
+    
+    <p>
+        <input type="text" class="form-control" placeholder="Notes" name="email">
+    </p>
+    <input type="hidden" name="myhidden" id="myhidden" value="This is my content hidden from the user - but note they can read it in the page source code" > <br>
+    
+   <input type="hidden" name="sessionID" id="myhidden" value="12345678-09ab-1111-cdef" >
+    
+    <input type="submit" class="btn btn-secondary btn-block" value="Post New Walk">
+    
+</form>
