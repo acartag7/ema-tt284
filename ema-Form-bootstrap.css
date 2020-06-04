@@ -22,11 +22,6 @@ body {
     justify-content: flex-end;
 }
 
-.in-use {
-  background-color: #00BFA5;
-  color: white;
-}
-
 .welcome {
   left: 5%;
   position: absolute;
