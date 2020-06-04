@@ -1,0 +1,20 @@
+Requirements:
+    The form should work and submit data to the TT284 reflector: http://students.open.ac.uk/mct/tt284/reflect/reflect.php. You are not required to implement any PHP to process this data at this stage.
+    
+    The form should include a hidden field. The field should be named ‘sessionID’ and should contain the value ‘12345678-09ab-1111-cdef’.
+    
+    The page should use a CSS style sheet.
+
+    As with the wireframe, the page should be easy to use on a laptop or desktop screen (1024px wide, landscape orientation).
+    
+    The page and form should be accessible.
+    
+    The form may use HTML5 input types described in Block 2 Part 3, but validation of input data is not required at this stage.
+    
+    Any admin application navigation features proposed in your wireframes should be present on the page, but are not required to function.
+    
+    The web page and any related files should be clearly named e.g. ‘q2a.html’, ‘q2a.css’.
+    
+    Validate your HTML using the W3C Markup Validation Service.
+    
+    

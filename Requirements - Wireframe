@@ -1,0 +1,51 @@
+Wireframes de esto:
+
+Admin team can:
+    Add a new walk.*
+    Approve proposed walks.*
+    Modify Walks-Events*
+    Members:*
+        Edit Members*
+        Approve Reject Members requests*
+        Mark a member as inactive*
+
+
+Walk events are described as follows:*
+    Name: e.g. Watcombe to Sheldon
+    Date: e.g. 23 February 2019
+    Start time: e.g. 10.30am
+    Meeting point: e.g. Watcombe Car Park
+    Distance in miles: e.g. 9
+    Notes: e.g. Grade A walk with steep hills
+    Status: e.g. Proposed, Approved or Rejected.
+    
+
+Other Events:*
+    Name: e.g. Watcombe to Sheldon
+    Date: e.g. 23 February 2019
+    Time: e.g. 10.30am
+    Location: aaaaa
+    
+
+Sign Up New Members*
+
+    Full Name:*
+    Email Address:*
+    Password:*
+    Consent for newsletter:*
+    
+News Items:*
+    Max 300 Words*
+    Dates*
+    Posted by*
+    
+Announcements emails - Newsletter:*
+    Send only to members that provided consent.*
+    Plain text with single attachment*
+    Specify Date*
+
+Seurity*
+    Only admins can enter to this.*
+    
+    
+
