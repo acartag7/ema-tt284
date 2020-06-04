@@ -46,12 +46,6 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
 }
-.features img {
-    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    margin-bottom: 16px;
-}
 
 .features .form-control,
 .features input {
@@ -135,14 +129,47 @@ Extra small devices (portrait phones, less than 376px)
 */
 
 
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, less than 376px and up) */
 @media (max-width: 375px) {
 
 }
 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+/* Medium devices (devices, 376px and up) */
 @media (min-width: 376px) {
 
+}
+
+
+@media (max-width: 575.98px) {
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+  }
+
+    .description h1 {
+      font-size: 2em;
+      padding-bottom: 2em;
+  }
+
+    .description p {
+      font-size: 1.2rem;
+  }
+
+    .features {
+      margin: 0;
+      padding-top: 3em;
+
+  }
+    .welcome {
+        text-align: center;
+}
+    h1 {
+        font-size: 1.5em;
+}
 }
 
 

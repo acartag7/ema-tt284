@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css-nonResponsive.css">
+</head>
+<body>
+    
+<div class="topnav" id="myTopnav">
+    <a href="#title" class="title">OU WALKING CLUB ADMIN SITE</a>
+    <div class="topnav-right">
+        <a href="#home" class="active top-bar hover">Home</a>
+        <a href="#Walks" class="top-bar hover">Walks</a>
+        <a href="#Events" class="top-bar hover">Events</a>
+        <a href="#Members" class="top-bar hover">Members</a>
+        <a href="#News" class="top-bar hover">News</a>
+        <a href="#Newsletter" class="top-bar hover">Newsletter</a>
+        <a href="#Logout" class="top-bar hover">Logout</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</div>
+    
+    <div class="welcome">
+        <h1 >Welcome @Username</h1>
+    </div>
+    
+<div class="row">
+  <div class="column1">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-button ">
+                    <a class="left-side-text active-page" href="#">Add a Walk</a>
+                </li>
+                <li class="list-group-item list-group-item-button">
+                    <a class="left-side-text" href="#">Add Event</a>
+                </li>
+                <li class="list-group-item list-group-item-button">
+                    <a class="left-side-text" href="#">Members</a>
+                </li>
+                <li class="list-group-item list-group-item-button">
+                    <a class="left-side-text" href="#">Add News</a>
+                </li>
+                <li class="list-group-item list-group-item-button">
+                    <a class="left-side-text" href="#">Send Newsletter</a>
+                </li>
+            </ul>
+  </div>
+    
+    
+  <div class="column2" >
+                        <h3 class="form-title">Add a Walk</h3>
+                        <form method="post" action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php" id="form1" name="form1">
+
+                            <p>
+                               <input type="text" class="form-control" placeholder="Name" name="name">
+                            </p>
+                            <p>
+                               <input type="time" class="form-control" name="time">
+                            </p>
+                            <p>
+                               <input type="date" class="form-control" name="date">
+                            </p>
+                            <p>
+                               <input type="text" class="form-control" placeholder="Meeting Point" name="meeting-point">
+                            </p>
+                            <p>
+                                <input type="text" class="form-control" placeholder="Distance in Miles" name="distance">
+                            </p>
+                            <p>
+                                <input type="text" class="form-control" placeholder="Notes" name="notes">
+                            </p>
+                           <input type="hidden" name="sessionID" id="myhidden" value="12345678-09ab-1111-cdef" >
+                            <input type="submit" class="btn btn-secondary btn-block" value="Post New Walk">
+                        </form>
+  </div>
+    
+  <div class="column3" >
+      <h3 class="feature-title">Upcoming Walks</h3>
+      <div class="row">
+          <div class="columnA" >
+              <ul class="list-group">
+                  <li class=" walk-button">
+                      <a href="#">Walk @Park Friday June 6 10 am</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="columnB" >
+              <ul class="list-group">
+                  <li class="edit-button btn-sm">
+                      <a href="#">Edit</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="columnC" >
+              <ul class="list-group">
+                  <li class="delete-button btn-sm">
+                      <a href="#">Delete</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div class="row">
+          <div class="columnA" >
+              <ul class="list-group">
+                  <li class=" walk-button">
+                      <a href="#">Walk @Park Friday June 6 10 am</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="columnB" >
+              <ul class="list-group">
+                  <li class="edit-button btn-sm">
+                      <a href="#">Edit</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="columnC" >
+              <ul class="list-group">
+                  <li class="delete-button btn-sm">
+                      <a href="#">Delete</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div class="row">
+          <div class="columnA" >
+              <ul class="list-group">
+                  <li class=" walk-button">
+                      <a href="#">Walk @Park Friday June 6 10 am</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="columnB" >
+              <ul class="list-group">
+                  <li class="edit-button btn-sm">
+                      <a href="#">Edit</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="columnC" >
+              <ul class="list-group">
+                  <li class="delete-button btn-sm">
+                      <a href="#">Delete</a>
+                  </li>
+              </ul>
+          </div>
+      </div>     
+    </div>
+</div>
+
+    
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }   
+        }
+    </script>
+</body>
